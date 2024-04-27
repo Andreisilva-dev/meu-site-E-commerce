@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+     width: 100%;
+}
+
+:root {
+    --cor01-color: #2A2A7C;
+    --cor02-color: #5051EA; 
+    --cor03-color: #1F1F5A;
+}
+
+header {
+    background-color: #2A2A7C;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    
+}
+
+header nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+header nav ul li a:hover{
+    
+    color: var(--cor02-color);
+    font-weight: bold;
+}
+
+
+.produtos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: auto;
+    gap: 20px;
+}
+.primeira-fileira {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    justify-content: space-between;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.card input {
+    background-color: var(--cor01-color);
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.segunda-fileira {
+    display: flex;
+    gap: 10px;
+}
+
+.depoimento {
+    color: white;
+    margin: auto;
+    border-radius: 15px;
+    max-width: 900px;
+    background-color: #5051EA;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.depoimento img {
+    width: 60px;
+}
+
+footer {
+    background-color: #1F1F5A;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 30px;
+}
